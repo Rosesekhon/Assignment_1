@@ -11,6 +11,19 @@ container:  background-color:#9ccfd8 ;
     margin: 0px;
 }
 
+@media screen and (max-width: 40em){
+    .body{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+}
+    
+
+
+
+
 body{
     background-color: #ebbcba ;
 }
