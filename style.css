@@ -1,7 +1,7 @@
 /* 
 background colour: #ebbcba (rose in pine) light peach colour
 sidenav colour: #9ccfd9 (foam in rose pine)
-
+font family: font-family: 'EB Garamond', serif;
 container:  background-color:#9ccfd8 ;
 */
 
@@ -16,7 +16,7 @@ body{
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'EB Garamond', serif;
     color: black;
 }
 
@@ -42,7 +42,7 @@ body{
 
 /* Side Nav*/
 .container{
-
+    font-family: 'EB Garamond', serif;
     background-color:#9ccfd9 ;
     height: 100vh;
     display: flex;
@@ -82,6 +82,7 @@ body{
 /* Add new contact */
 
 .content{
+    
     display: grid;
     row-gap: 20px;
     margin: 20px;
@@ -91,6 +92,7 @@ body{
 
 
 .cName{
+    font-family: 'EB Garamond', serif;
     background-color: rgb(236, 236, 236);
     min-width: 20px;
     border: solid black;
@@ -190,6 +192,8 @@ body{
 }
 
 .display{
+    font-family: 'EB Garamond', serif;
+    font-size: 12pt;
     display: grid;
     row-gap: 30px;
     
